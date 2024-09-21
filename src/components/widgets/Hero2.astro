@@ -1,6 +1,6 @@
 ---
 import Image from '~/components/common/Image.astro';
-import Button from '~/components/ui/Button.astro';
+import Newsletter from "~/components/Newsletter";
 
 import type { Hero as Props } from '~/types';
 
@@ -10,7 +10,6 @@ const {
   tagline,
 
   content = await Astro.slots.render('content'),
-  actions = await Astro.slots.render('actions'),
   image = await Astro.slots.render('image'),
 
   id,
@@ -39,29 +38,18 @@ const {
         {
           title && (
             <h1
-              class="text-5xl md:text-6xl font-bold leading-tighter tracking-tighter mb-4 font-heading dark:text-gray-200"
+            class="text-2xl md:text-3xl font-bold leading-tighter tracking-tighter mb-6 font-heading dark:text-gray-200"
               set:html={title}
             />
           )
         }
-        <div class="max-w-3xl mx-auto lg:max-w-none">
-          {subtitle && <p class="text-xl text-muted mb-6 dark:text-slate-300" set:html={subtitle} />}
 
-          {
-            actions && (
-              <div class="max-w-xs sm:max-w-md m-auto flex flex-nowrap flex-col sm:flex-row sm:justify-center gap-4 lg:justify-start lg:m-0 lg:max-w-7xl">
-                {Array.isArray(actions) ? (
-                  actions.map((action) => (
-                    <div class="flex w-full sm:w-auto">
-                      <Button {...(action || {})} class="w-full sm:mb-0" />
-                    </div>
-                  ))
-                ) : (
-                  <Fragment set:html={actions} />
-                )}
-              </div>
-            )
-          }
+        <div class="max-w-3xl mx-auto lg:max-w-none">
+          {subtitle && <p class="text-xl mb-8 dark:text-slate-300" set:html={subtitle} />}
+
+          <div class="mt-10">
+            <Newsletter client:visible />
+          </div>
         </div>
         {content && <Fragment set:html={content} />}
       </div>
@@ -77,8 +65,8 @@ const {
                   widths={[400, 768, 1024, 2040]}
                   sizes="(max-width: 767px) 400px, (max-width: 1023px) 768px, (max-width: 2039px) 1024px, 2040px"
                   loading="eager"
-                  width={600}
-                  height={600}
+                  width={300}
+                  height={300}
                   {...image}
                 />
               )}

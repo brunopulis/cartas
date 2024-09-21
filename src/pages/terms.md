@@ -1,7 +1,69 @@
 ---
-title: 'Terms and Conditions'
+title: 'Termos e Condições'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
+
+Leia atentamente estes termos e condições antes de usar nosso serviço.
+
+## Interpretação e definições
+
+### Interpretação
+
+As palavras cuja letra inicial está em maiúscula têm significados definidos nas seguintes condições. As definições a seguir terão o mesmo significado, independentemente de aparecerem no singular ou no plural.
+
+### Definições
+
+Para os fins destes Termos e Condições:
+
+- **Afiliada** significa uma entidade que controla, é controlada por ou está sob controle comum com uma parte, em que “controle” significa a propriedade de 50% ou mais das ações, participação acionária ou outros títulos com direito a voto para eleição de diretores ou outra autoridade administrativa.
+
+- País** refere-se a: Califórnia, Estados Unidos
+
+- Empresa** (referida como “a Empresa”, “Nós”, “Nos” ou “Nosso” neste Contrato) refere-se à AstroWind LLC, 1 Cupertino, CA 95014.
+
+- Dispositivo** significa qualquer dispositivo que possa acessar o Serviço, como um computador, um celular ou um tablet digital.
+
+- **Serviço** refere-se ao Site.
+
+- Termos e Condições** (também chamados de “Termos”) significam estes Termos e Condições que formam o acordo integral entre o Usuário e a Empresa com relação ao uso do Serviço. Este contrato de Termos e Condições é uma Demonstração.
+
+- Serviço de mídia social de terceiros** significa quaisquer serviços ou conteúdo (incluindo dados, informações, produtos ou serviços) fornecidos por terceiros que possam ser exibidos, incluídos ou disponibilizados pelo Serviço.
+
+- Site** refere-se ao AstroWind, acessível a partir de [https://astrowind.vercel.app] (https://astrowind.vercel.app)
+
+- **Você** significa o indivíduo que está acessando ou usando o Serviço, ou a empresa ou outra entidade legal em nome da qual tal indivíduo está acessando ou usando o Serviço, conforme aplicável.
+
+## Reconhecimento
+
+Estes são os Termos e Condições que regem o uso deste Serviço e o acordo que opera entre Você e a Empresa. Estes Termos e Condições estabelecem os direitos e as obrigações de todos os usuários em relação ao uso do Serviço.
+
+Seu acesso e uso do Serviço estão condicionados à sua aceitação e ao cumprimento destes Termos e Condições. Estes Termos e Condições se aplicam a todos os visitantes, usuários e outros que acessam ou usam o Serviço.
+
+Ao acessar ou usar o Serviço, o usuário concorda em obedecer a estes Termos e Condições. Se você não concordar com qualquer parte destes Termos e Condições, não poderá acessar o Serviço.
+
+Você declara que tem mais de 18 anos de idade. A Empresa não permite que menores de 18 anos usem o Serviço.
+
+Seu acesso e uso do Serviço também estão condicionados à sua aceitação e conformidade com a Política de Privacidade da Empresa. Nossa Política de Privacidade descreve nossas políticas e procedimentos sobre a coleta, o uso e a divulgação de suas informações pessoais quando você usa o Aplicativo ou o Site e informa sobre seus direitos de privacidade e como a lei o protege. Leia atentamente nossa Política de Privacidade antes de usar nosso Serviço.
+
+## Links para outros sites
+
+Nosso Serviço pode conter links para sites ou serviços de terceiros que não são de propriedade ou controlados pela Empresa.
+
+A Empresa não tem controle e não assume nenhuma responsabilidade pelo conteúdo, políticas de privacidade ou práticas de sites ou serviços de terceiros. Você também reconhece e concorda que a Empresa não será responsável, direta ou indiretamente, por qualquer dano ou perda causados ou supostamente causados por ou em conexão com o uso ou a confiança em qualquer conteúdo, bens ou serviços disponíveis em ou por meio de tais sites ou serviços.
+
+Recomendamos enfaticamente que você leia os termos e condições e as políticas de privacidade de todos os sites ou serviços de terceiros que você visitar.
+
+## Rescisão
+
+Poderemos rescindir ou suspender seu acesso imediatamente, sem aviso prévio ou responsabilidade, por qualquer motivo, inclusive, sem limitação, se você violar estes Termos e Condições.
+
+Após a rescisão, seu direito de usar o Serviço cessará imediatamente.
+
+## Limitação de responsabilidade
+
+Não obstante quaisquer danos em que você possa incorrer, toda a responsabilidade da Empresa e de qualquer um de seus fornecedores, de acordo com qualquer disposição destes Termos, e seu recurso exclusivo para tudo o que foi mencionado acima, será limitada ao valor efetivamente pago por você por meio do Serviço ou a 100 USD, caso você não tenha comprado nada por meio do Serviço.
+
+Traduzido com a versão gratuita do tradutor - DeepL.com
 
 _Last updated_: January 06, 2023
 

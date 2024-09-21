@@ -1,5 +1,6 @@
 import defaultTheme from 'tailwindcss/defaultTheme';
 import typographyPlugin from '@tailwindcss/typography';
+import tailwindForms from '@tailwindcss/forms';
 
 module.exports = {
   content: ['./src/**/*.{astro,html,js,jsx,json,md,mdx,svelte,ts,tsx,vue}'],
@@ -11,6 +12,7 @@ module.exports = {
         accent: 'var(--aw-color-accent)',
         default: 'var(--aw-color-text-default)',
         muted: 'var(--aw-color-text-muted)',
+        bgGrey: '#e7ecef'
       },
       fontFamily: {
         sans: ['var(--aw-font-sans, ui-sans-serif)', ...defaultTheme.fontFamily.sans],
@@ -19,6 +21,9 @@ module.exports = {
       },
     },
   },
-  plugins: [typographyPlugin],
+  plugins: [
+    typographyPlugin,
+    tailwindForms
+  ],
   darkMode: 'class',
 };

@@ -58,6 +58,7 @@ const Newsletter = () => {
         <label htmlFor="name" className="block text-sm text-#0a0a0a font-bold">Seu nome</label>
         <input
           type="text"
+          name="email"
           id="name"
           placeholder="Mc Lovin"
           {...register("email")}
@@ -65,10 +66,11 @@ const Newsletter = () => {
           className="py-3 px-2 block w-medium text-md rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900"
         />
 
-        <label htmlFor="email" className="block text-sm text-#0a0a0a font-bold">Seu nome</label>
+        <label htmlFor="email" className="block text-sm text-#0a0a0a font-bold">Seu e-mail</label>
         <input
           type="email"
           placeholder="ex: email@email.com"
+          name="email"
           id="email"
           {...register("email")}
           disabled={loading}

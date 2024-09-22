@@ -9,7 +9,7 @@ site:
 metadata:
   title:
     default: Pulis Letters
-    template: '%s — Pulis Letters'
+    template: '%s — Aprenda acessibilidade sem complicação'
   description: "Sai do zero em acessibilidade, aprenda com uma referência nacional."
   robots:
     index: true
